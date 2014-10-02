@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<title>Practica2-HTML</title>
+    </head>
+    <body>
+    <div>
+     <form action="datos.html" method="POST">
+       <fieldset>
+       <legend>TIENDITA</legend>
+       <label for="txtCantidad">Cantidad:</label><br />
+       <input type="text" size="20" maxlength="255" id="txtCantidad" name="cantidad" value=""/>
+       
+       <br />
+       <br />
+       
+       <label for="txtFechaIngreso">Fecha de ingreso:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtFechaIngreso" name="fecha" value=""/>
+       <br />
+       <br />
+       <label for="txtSeguroSocial">Seguro Social:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtSeguroSocial" name="nss"/>
+       
+       <br />
+       <br />
+      
+       </fieldset>
+
+       <fieldset>
+       <legend>PERSONAL</legend>
+       <label for="txtNombre">Nombre:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtCodigo" name="nombre" value=""/>
+       
+       <br />
+       <br />
+       
+       <label for="txtApPat">Apellido Paterno:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtApPat" name="appat" value=""/>
+       <br />
+       <br />
+       <label for="txtApMat">Apellido Materno:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtApMat" name="apmat"/>
+       
+       <br />
+       <br />
+       <label for="txtEdad">Edad:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtEdad" name="edad"/>
+       
+       <br />
+       <br />
+
+	<INPUT type="radio" name="sexo" value="Varón"> Varón<BR>
+    	<INPUT type="radio" name="sexo" value="Mujer"> Mujer<BR>
+
+       <br />
+       <br />
+       <label for="txEdoCivil">Estado Civil:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtEdoCivil" name="edocivil"/>
+      
+       </fieldset>
+
+       <fieldset>
+       <legend>NACIMIENTO</legend>
+       <label for="txtFecha">Fecha:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtFecha" name="fecha" value=""/>
+       
+       <br />
+       <br />
+       
+       <label for="txtPais">Pa&iacute;s:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtPais" name="pais" value=""/>
+       <br />
+       <br />
+       
+      
+       </fieldset>
+
+	<fieldset>
+       <legend>CONTACTO</legend>
+       <label for="txtTitulo">T&iacute;tulo:</label><br />
+       <input type="text" size="40" maxlength="255" id="txttitulo" name="titulo" value=""/>
+       
+       <br />
+       <br />
+       
+       <label for="txtCurp">CURP:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtCurp" name="curp" value=""/>
+       <br />
+       <br />
+       <label for="txtRfc">RFC:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtRfc" name="rfc"/>
+       
+       <br />
+       <br />
+       <label for="txtTel">Telefono:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtTel" name="tel"/>
+       
+       <br />
+       <br />
+
+       <label for="txtCel">Celular:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtCel" name="cel"/>
+       
+	<br />
+       <br />
+
+       <label for="txtDom">Domicilio:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtDom" name="dom"/>
+      
+	<br />
+       <br />
+
+       <label for="txtCiudad">Ciudad:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtCiudad" name="cd"/>
+      
+	<br />
+       <br />
+
+       <label for="txtCodPost">C&oacute;digo Postal:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtCodPost" name="cp"/>
+      
+	<br />
+       <br />
+
+       <label for="txtPais">Pa&iacute;s:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtPais" name="pais"/>
+      
+	<br />
+       <br />
+
+       <label for="txtEdo">Estado:</label><br />
+      
+	<body>
+    	<form action="">
+    	<select name="ad" onchange="crearlink(this.form)">
+    	<option selected> ---</option>
+    	<option value="1.htm">Jalisco</option>
+    	<option value="2.htm">Guanajuato</option>
+    	<option value="3.htm">Durango</option>
+    	</select>
+    	</form>
+    	</body> 
+      
+	<br />
+       <br />
+
+       <label for="txtEmail">E-mail:</label><br />
+       <input type="text" size="40" maxlength="255" id="txtEmail" name="mail"/>
+	
+     
+
+       </fieldset>
+       <input  type="submit" name="enviar" value="Guardar"/>
+       </form>
+       </div>
+       </body>
+       </html>
